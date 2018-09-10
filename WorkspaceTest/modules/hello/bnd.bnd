@@ -1,0 +1,4 @@
+Bundle-Name: hello
+Bundle-SymbolicName: com.lifesysnet.hello
+Bundle-Version: 1.0.0
+Export-Package: com.lifesysnet.hello.constants

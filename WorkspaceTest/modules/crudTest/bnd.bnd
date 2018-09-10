@@ -1,0 +1,4 @@
+Bundle-Name: crudTest
+Bundle-SymbolicName: com.lifesysnet.crud
+Bundle-Version: 1.0.0
+Export-Package: com.lifesysnet.crud.constants

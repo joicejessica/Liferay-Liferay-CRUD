@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="com.lifesysnet.employee" auto-namespace-tables="true">
+	<namespace>JOICE</namespace>
+    <entity name="Employee" uuid="false" remote-service="false" local-service="true" table="employee" cache-enabled="false">
+        <column name="empId" primary="true" type="long" db-name="empId"></column>
+        <column name="name" type="String" db-name="name"></column>
+    </entity>
+	
+</service-builder>

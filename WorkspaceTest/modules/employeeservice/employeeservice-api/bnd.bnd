@@ -1,0 +1,9 @@
+Bundle-Name: employeeservice-api
+Bundle-SymbolicName: com.lifesysnet.employee.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.lifesysnet.employee.exception,\
+	com.lifesysnet.employee.model,\
+	com.lifesysnet.employee.service,\
+	com.lifesysnet.employee.service.persistence
+-includeresource: META-INF/service.xml=../employeeservice-service/service.xml
